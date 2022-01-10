@@ -10,20 +10,21 @@
   "dependencies": {
     "ts-json-schema-generator": "^0.95.0",
     "js-yaml": "^4.1.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "ajv": "^6.9.1"
   },
   "devDependencies": {
-    "@conqa/serverless-openapi-documentation": "^1.1.0",
+    "@martinsson/serverless-openapi-documentation": "^1.2.4",
     "@types/jest": "^27.0.1",
     "@types/serverless": "^1.78.35",
     "jest": "^27.0.6",
-    "serverless": "^2.56.0",
+    "serverless": ">=2.56.0",
     "ts-jest": "^27.0.5",
     "typescript": "^4.4.2"
   },
   "peerDependencies": {
-    "@conqa/serverless-openapi-documentation": "^1.1.0",
-    "serverless": "^2.56.0"
+    "@martinsson/serverless-openapi-documentation": "^1.2.4",
+    "serverless": ">=2.52.1"
   },
   "keywords": [],
   "author": "env0",
