@@ -1,6 +1,6 @@
 {
   "name": "serverless-openapi-typescript",
-  "version": "1.0.6",
+  "version": "1.0.10",
   "description": "An extension of @conqa/serverless-openapi-documentation that also generates your OpenAPI models from TypeScript",
   "main": "dist/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "prepare": "npm run build"
   },
   "dependencies": {
-    "ts-json-schema-generator": "^0.95.0",
+    "ts-json-schema-generator": "^1.2.0",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
     "ajv": "^6.9.1"
