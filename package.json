@@ -18,7 +18,7 @@
     "@martinsson/serverless-openapi-documentation": "^1.2.4",
     "@types/jest": "^27.0.1",
     "@types/node": "^18.16.3",
-    "@types/serverless": "^3.12.11",
+    "@types/serverless": "^1.78.39",
     "jest": "^27.0.6",
     "serverless": ">=2.56.0",
     "ts-jest": "^27.0.5",
