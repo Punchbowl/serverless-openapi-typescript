@@ -9,15 +9,16 @@
     "prepare": "npm run build"
   },
   "dependencies": {
-    "ts-json-schema-generator": "^1.2.0",
+    "ajv": "^6.9.1",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
-    "ajv": "^6.9.1"
+    "ts-json-schema-generator": "^1.2.0"
   },
   "devDependencies": {
     "@martinsson/serverless-openapi-documentation": "^1.2.4",
     "@types/jest": "^27.0.1",
-    "@types/serverless": "^1.78.35",
+    "@types/node": "^18.16.3",
+    "@types/serverless": "^3.12.11",
     "jest": "^27.0.6",
     "serverless": ">=2.56.0",
     "ts-jest": "^27.0.5",
