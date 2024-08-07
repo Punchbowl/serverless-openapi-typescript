@@ -1,9 +1,9 @@
 import type Serverless from "serverless";
-import fs from "fs";
+import fs from "node:fs";
 import yaml from "js-yaml";
-import {SchemaGenerator, createGenerator} from "ts-json-schema-generator";
+import {type SchemaGenerator, createGenerator} from "ts-json-schema-generator";
 import {upperFirst, camelCase, mergeWith, set, isArray, get, isEmpty } from "lodash" ;
-import {ApiGatewayEvent} from "serverless/plugins/aws/package/compile/events/apiGateway/lib/validate";
+import type {ApiGatewayEvent} from "serverless/plugins/aws/package/compile/events/apiGateway/lib/validate";
 
 interface Options {
     typescriptApiPath?: string;

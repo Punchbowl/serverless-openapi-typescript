@@ -12,17 +12,17 @@
     "ajv": "^6.9.1",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
-    "ts-json-schema-generator": "^1.2.0"
+    "ts-json-schema-generator": "^2.3.0"
   },
   "devDependencies": {
     "@martinsson/serverless-openapi-documentation": "^1.2.4",
-    "@types/jest": "^27.0.1",
+    "@types/jest": "^29.5.12",
     "@types/node": "^18.16.3",
     "@types/serverless": "^1.78.39",
-    "jest": "^27.0.6",
+    "jest": "^29.7.0",
     "serverless": ">=2.56.0",
-    "ts-jest": "^27.0.5",
-    "typescript": "^4.4.2"
+    "ts-jest": "^29.2.4",
+    "typescript": "^5.5.4"
   },
   "peerDependencies": {
     "@martinsson/serverless-openapi-documentation": "^1.2.4",
